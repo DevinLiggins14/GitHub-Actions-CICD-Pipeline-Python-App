@@ -61,7 +61,7 @@ Add these secrets to your GitHub repository:
 
 <br/> That worked but we have another error: <br/>
 <img src="https://github.com/user-attachments/assets/0ceabded-9bab-4bd8-baf1-529b5f5b2538"/>
-<br/> This error is because the Dockerfile is in the incorrect path within GitHub, it should be in BreadcrumbsGitHub-Actions-CICD-Pipeline-Python-App/Dockerfile (Double check the other file paths as well),
+<br/> This error is because the Dockerfile is in the incorrect path within GitHub, it should be in GitHub-Actions-CICD-Pipeline-Python-App/Dockerfile (Double check the other file paths as well),
  <br/> 
 
  <img src="https://github.com/user-attachments/assets/3f756870-d064-4010-ac38-e22f4f686fa2"/>
