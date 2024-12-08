@@ -78,5 +78,31 @@ Add these secrets to your GitHub repository:
 <br/> The Docker image is even visible now on my DockerHub profile <br/> 
 <img src="https://github.com/user-attachments/assets/4d621790-191a-4fd6-876b-1752686a9f7b"/>
 <br/> Now to investigate why the test was unsuccessful <br/>
+<img src="https://github.com/user-attachments/assets/7ae5bbb1-5d19-4c09-ae7b-ac084f920216"/>
+<img src="https://github.com/user-attachments/assets/9dee360a-77f5-4eb7-bab2-169cbc54673f"/>
+<br/> This issue appears to be from the Flask application trying to import url_quote from werkzeug.urls, but that function no longer exists in recent versions of Werkzeug. This is due to breaking changes introduced in Werkzeug 2.0 and later.<br/> 
+
+<br/> To fix this make an edit to requirements.txt to add Werkzeug==2.2.3 in addition to Flask==2.2.3. This ensures that no incompatible version will be installed. <br/>
+
+<br/> Let's view the testing and possible deployment now <br/>
+<img src="https://github.com/user-attachments/assets/eb5a11e3-34c5-497a-a761-15713c9f175a"/>
+<br/> The build and testing worked! Now got to DockerHub to confirm <br/>
+<img src="https://github.com/user-attachments/assets/355b0c57-1d73-4715-8882-2b0bcee4c3a0"/>
+
+<br/> Since the application is supposed to be fully functional I will pull the image from DockerHub onto a local linux machine and attempt to access from a browser. I will copy the command listed within the DockerHub repository to pull the image <br/>
+
+```Bash
+docker pull dlliggins/my-image:latest
+```
+
+<img src="https://github.com/user-attachments/assets/28c2a313-4e08-4bf2-9f53-608c1acc74e9"/>
+<br/> Now that I have pulled the docker image locally onto the linux server I will run it as a container and expose port 8080 to access it in a browser <br/> 
+
+```Bash
+docker run -d -p 8080:8080 dlliggins/my-image:latest
+```
+
+<img src="https://github.com/user-attachments/assets/b6b68861-4973-49b3-939a-0b2840b15a61"/>
 <img src=""/>
-<br/> This issue appears to be from a <br/> 
+
+<br/>  <br/>
