@@ -105,4 +105,5 @@ docker run -d -p 8080:8080 dlliggins/my-image:latest
 <img src="https://github.com/user-attachments/assets/b6b68861-4973-49b3-939a-0b2840b15a61"/>
 <img src="https://github.com/user-attachments/assets/68dd43c5-16c8-4efa-8fc0-6b965289d641"/>
 
-<br/>  <br/>
+<br/> Success! By automating the build, test, and deployment processes with GitHub Actions, the development cycle has been streamlined and ensures that only stable, tested code reaches production. The pipeline ensures continuous delivery 
+ <br/>
