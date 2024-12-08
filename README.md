@@ -33,3 +33,5 @@ This project demonstrates the implementation of a CI/CD pipeline using GitHub Ac
 2. **Configured GitHub Actions:** Enable GitHub Actions in the repository settings.
 3. **Secrets Management:** Add necessary secrets for deployment, such as API keys or environment variables.
 4. **Python Version:** Ensure the desired Python version is specified in the configuration.
+
+
