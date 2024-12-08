@@ -88,7 +88,7 @@ Add these secrets to your GitHub repository:
 <img src="https://github.com/user-attachments/assets/eb5a11e3-34c5-497a-a761-15713c9f175a"/>
 <br/> The build and testing worked! Now got to DockerHub to confirm <br/>
 <img src="https://github.com/user-attachments/assets/355b0c57-1d73-4715-8882-2b0bcee4c3a0"/>
-
+<img src="https://github.com/user-attachments/assets/ee33853d-0a0a-4c82-a1d5-c97644db0bf9"/>
 <br/> Since the application is supposed to be fully functional I will pull the image from DockerHub onto a local linux machine and attempt to access from a browser. I will copy the command listed within the DockerHub repository to pull the image <br/>
 
 ```Bash
@@ -103,6 +103,6 @@ docker run -d -p 8080:8080 dlliggins/my-image:latest
 ```
 
 <img src="https://github.com/user-attachments/assets/b6b68861-4973-49b3-939a-0b2840b15a61"/>
-<img src=""/>
+<img src="https://github.com/user-attachments/assets/68dd43c5-16c8-4efa-8fc0-6b965289d641"/>
 
 <br/>  <br/>
