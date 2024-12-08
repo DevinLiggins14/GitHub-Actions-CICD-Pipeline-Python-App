@@ -65,5 +65,18 @@ Add these secrets to your GitHub repository:
 <img src="https://github.com/user-attachments/assets/158d4434-ed7c-4eec-a5aa-953b600a2f95"/>
 <br/> Enter the correct information <br/>
 
+<br/> That worked but we have another error: <br/>
+<img src="https://github.com/user-attachments/assets/0ceabded-9bab-4bd8-baf1-529b5f5b2538"/>
+<br/> This error is because the Dockerfile is in the incorrect path within GitHub, it should be in BreadcrumbsGitHub-Actions-CICD-Pipeline-Python-App/Dockerfile (Double check the other file paths as well),
+ <br/> 
 
+ <img src="https://github.com/user-attachments/assets/3f756870-d064-4010-ac38-e22f4f686fa2"/>
+<br/> Fixed, now lets check the actions tab since it will be automatically updated once new code has been added automatically. <br/>
+ <img src="https://github.com/user-attachments/assets/36c0d73f-d58c-4d95-9501-fededefc2ffe"/>
+<br/> It appears the test was successful but the test was not <br/>
 
+<br/> The Docker image is even visible now on my DockerHub profile <br/> 
+<img src="https://github.com/user-attachments/assets/4d621790-191a-4fd6-876b-1752686a9f7b"/>
+<br/> Now to investigate why the test was unsuccessful <br/>
+<img src=""/>
+<br/> This issue appears to be from a <br/> 
