@@ -35,3 +35,20 @@ This project demonstrates the implementation of a CI/CD pipeline using GitHub Ac
 4. **Python Version:** Ensure the desired Python version is specified in the configuration.
 
 
+## Step 1: Create the main.yml and app.py files
+
+<br/> Navigate to the .github/workflows section create/copy the listed files <br/> 
+
+<img src="https://github.com/user-attachments/assets/72a5aa44-67ea-435d-b430-532221420689"/>
+<br/> The pipline will begin but we will see it has failed since the DockerHub account and password has not been defined <br/> 
+<img src="https://github.com/user-attachments/assets/7a81903d-4c0b-413d-87ac-b8e57b152494"/>
+
+
+
+## Step 2: Define the DockerHub account user name and password 
+
+<br/> Go to Secrets and Variables within GitHub  to configure the <br/> 
+
+<img src=""/>
+
+
