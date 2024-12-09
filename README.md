@@ -2,7 +2,7 @@
 
 ---
 
-## ** Description**
+## Description:
 This GitHub Actions workflow automates the **building**, **testing**, and **deploying** of a Python application as a Docker image to DockerHub. It enhances development efficiency and ensures code quality through automation.
 
 ## **✨ Key Features**
